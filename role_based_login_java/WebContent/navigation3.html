@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>
+ Traffic E-seva Website 
+    
+    </title>
+    <link rel="stylesheet"  href="navigationproperties3.css">  
+    </head>
+    <body class="fornavigation">
+    <nav>a
+    <ul class="topnav" id="dropdownclick">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="realnews.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        
+        <li class='topnavright'>
+            <a href="signin.html">Sign In</a></li>
+        <li class="topnavright"><a href="signup.html">Sign up</a></li>
+        <li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+   </ul>
+    </nav>
+    
+        <script>
+        function dropdownmenu()
+            {
+                var x = document.getElementById("dropdownclick");
+                if(x.className === "topnav")
+                    {
+                        x.className += " responsive";
+                        /* ***************************/
+                        
+                    }
+                else
+                    {
+                        x.className= "topnav";
+                    }
+                
+            }
+        
+        
+        
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

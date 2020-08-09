@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>TRAFFIC E-SEVA APP</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.12.4-jquery.min.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--valiadtion css & js start here-->	
+<style type="text/css">
+label.error
+{
+	color:red;
+   	font-family:Times New Roman;
+	font-size:17px;
+}		
+
+
+input[type=text], input[type=email] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 8px 12px;   
+        display: inline-block;   
+        border: 2px solid orange;   
+        box-sizing: border-box; 
+        text-align:left;  
+    }  
+    input[type=submit]
+    {
+     background-color: tomato;   
+       width: 20%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+    
+    }
+    
+     form {   
+        border: 3px solid #f1f1f1;   
+    }   
+    p
+    {
+    text-align:center;
+    }
+    .content {
+    text-align:left;
+  max-width: 700px;
+  margin: auto;
+}
+
+.sos
+{
+color:red;
+}
+    
+    
+
+</style>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.html">E-SEVA APPP</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+               
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<p><b><u>TRAFFIC COP REGISTER POSTS</u></b><br><br></p>
+
+<div class="content">
+<form method="post" action="indexxx.jsp">
+ police name:<br>
+<input type="text" name="first_name">
+<br>
+violators name:<br>
+<input type="text" name="last_name">
+<br>
+City name:<br>
+<input type="text" name="city_name">
+<br>
+violators Email Id:<br>
+<input type="email" name="email">
+<br>
+
+violations type:<br>
+<input type="text" name="violationstype">
+<br>
+
+Driving License no:<br>
+<input type="text" name="licensenum">
+<br>
+
+
+vehicle details:<br>
+<input type="text" name="vehicledetails">
+<br>
+
+date and time:<br>
+<input type="text" name="date">
+<br>
+
+
+
+location:<br>
+<input type="text" name="location">
+<br>
+
+repeated offenders:<br>
+<input type="text" name="repeatedoffenders">
+<br>
+
+
+vehicle number:<br>
+<input type="text" name="vehiclenumber">
+<br>
+
+
+
+
+
+
+<input type="submit" value="submit">
+</form>
+</div>
+<!-- register emergency -->
+<div class="sos">
+<form method="post" action="sos.html">
+
+
+<input type="submit" value="Emergency sos users">
+
+
+</form>
+</div>
+<!-- sos button -->
+
+<form method="post" action="gethelppolice.html">
+
+
+<input type="submit" value="Sos-get help from police">
+
+
+
+</form>
+
+
+	
+
+	
+        
+            </div>
+            </div>
+            
+            
+            
+            
+
+
+
+
+
+</body>
+</html>
